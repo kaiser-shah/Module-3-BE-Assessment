@@ -1,5 +1,5 @@
 import { Button, Col, Image, Row, Modal, Form } from "react-bootstrap";
-import "../app.css";
+import "../App.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import useLocalStorage from "use-local-storage";
