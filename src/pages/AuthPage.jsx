@@ -5,11 +5,11 @@ import axios from "axios";
 import useLocalStorage from "use-local-storage";
 import { useNavigate } from "react-router-dom";
 import React from "react";
+import logo from "/images/courtmania_logo.png";
+import loginImage from "/images/background1.png";
+import backgroundImage from "/images/background2.png";
 
 export default function AuthPage() {
-  const loginImage = "src/assets/background1.png";
-  const backgroundImage = "src/assets/background2.png";
-  const logo = "src/assets/courtmania_logo.png";
   const url =
     "https://5fd87737-6ead-47d4-99c7-419419ee0211-00-120gfp1y2h20u.pike.replit.dev";
 

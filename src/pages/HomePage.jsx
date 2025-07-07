@@ -1,12 +1,12 @@
 import { Container, Button, Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import React from "react";
+import logo from "/images/courtmania_logo.png";
+import logo2 from "/images/b&w_Logo.png";
+import backgroundImage from "/images/homepage_bg.jpg";
 
 export default function Home() {
   const navigate = useNavigate();
-  const backgroundImage = "src/assets/homepage_bg.jpg";
-  const logo = "src/assets/courtmania_logo.png";
-  const logo2 = "src/assets/b&w_Logo.png";
 
   return (
     <div

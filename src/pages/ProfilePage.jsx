@@ -6,10 +6,9 @@ import useLocalStorage from "use-local-storage";
 import axios from "axios";
 import CurrentBookings from "./components/CurrentBookings";
 import NewBooking from "./components/NewBooking";
+import logo from "/images/courtmania_logo.png";
 
 export default function ProfilePage() {
-  const logo = "src/assets/courtmania_logo.png";
-
   const [authToken, setAuthToken] = useLocalStorage("authToken", "");
   const navigate = useNavigate();
   const [name, setName] = useState("");
